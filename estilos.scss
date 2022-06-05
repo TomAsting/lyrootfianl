@@ -1,0 +1,456 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.body3 {
+
+    background-image: url(./img/fondo2.png);
+    background-size: auto;
+}
+
+/*index*/
+.body1 {
+    background-color: black;
+}
+
+.h11 {
+    font-size: 0;
+}
+
+.logoprincipal {
+    text-align: center;
+    padding-top: 200px;
+    transition: all 4s;
+}
+
+.logoprincipal:hover {
+    transform: rotateY(360deg);
+    transform-style: preserve-3d;
+    transition: all 4s;
+}
+
+.rounded-circle {
+    background-color: rgb(212, 212, 212);
+}
+
+.ingresar {
+    text-align: center;
+    padding-top: 50px;
+}
+
+.ingresar a {
+    font-size: 30px;
+    color: white;
+    padding-top: 50px;
+    text-decoration: none;
+    font-style: none;
+}
+
+.ingresar a:hover {
+    text-decoration: none;
+    color: pink;
+}
+
+
+
+body {
+    background-color: antiquewhite;
+    text-align: center;
+
+}
+
+/*navegador*/
+.navbar {
+    background-color: black;
+
+
+    & img {
+        background-color: black;
+    }
+
+    & a {
+        text-decoration: none;
+        font-weight: 700;
+        color: white;
+        font-size: 20px;
+    }
+
+    & a:hover {
+        color: pink;
+    }
+
+}
+
+/*inicio*/
+
+
+.dropdown-menu {
+    & a {
+        color: black;
+
+    }
+}
+
+.lanza {
+
+
+    background-color: grey;
+    margin: 20px;
+    height: 50px;
+    color: white;
+    text-shadow: 5px 5px 5px black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
+
+.tipos {
+
+    color: rgb(255, 255, 255);
+    background-color: grey;
+    text-shadow: 5px 10px 5px rgb(0, 0, 0);
+    font-weight: 400;
+    margin: 20px;
+    height: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+}
+
+
+.card {
+    background-color: antiquewhite;
+    text-align: center;
+    border-width: 4px;
+    border-color: black;
+    margin-top: 10px;
+    margin-right: 5px;
+
+    & h4 {
+        font-weight: 800;
+        font-size: 20px;
+        background-color: pink;
+        color: black;
+        border-color: pink;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+    }
+
+    & h4:hover {
+        color: pink;
+        background-color: black;
+
+    }
+}
+
+.jumbotron {
+    background-color: antiquewhite;
+}
+
+.jumbo1 {
+    background-color: antiquewhite;
+    background-image: url(./img/tiffany/tiffany4.jpg);
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+    padding-bottom: 1px;
+    margin-bottom: 20px;
+    margin-top: 30px;
+
+
+    & h1 {
+        text-align: right;
+        color: white;
+        margin-right: 90px;
+        padding-top: 150px;
+        padding-bottom: 20px;
+        font-size: 80px;
+        text-shadow: 5px 5px 5px black;
+
+    }
+
+    & a {
+        text-decoration: none;
+
+    }
+
+    & h1:hover {
+        color: pink;
+    }
+
+    & p {
+        color: white;
+        text-align: right;
+        text-shadow: 5px 5px 5px black;
+        padding-right: 50px;
+
+    }
+
+}
+
+.jumbo2 {
+    background-color: antiquewhite;
+    background-image: url(./img/Paul_riviere/paul5.jpg);
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+
+    & h1 {
+        text-align: left;
+        color: white;
+        margin-left: 25px;
+        padding-top: 150px;
+        padding-bottom: 20px;
+        font-size: 80px;
+        text-shadow: 5px 5px 5px black;
+
+    }
+
+    & a {
+        text-decoration: none;
+
+    }
+
+    & h1:hover {
+        color: pink;
+    }
+
+    & p {
+        color: white;
+        text-align: left;
+        text-shadow: 5px 5px 5px black;
+        padding-left: 50px;
+
+    }
+
+}
+
+
+/*tiffany */
+
+.jumbo3 {
+    background-color: antiquewhite;
+    background-image: url(./img/tiffany/tiffany3.jpg);
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+
+    & h1 {
+        text-align: left;
+        color: white;
+        margin-left: 30px;
+        padding-top: 150px;
+        padding-bottom: 20px;
+        font-size: 100px;
+        text-shadow: 5px 5px 5px black;
+
+    }
+
+    & a {
+        text-decoration: none;
+
+    }
+
+    & h1:hover {
+        color: pink;
+    }
+
+    & p {
+        color: black;
+        text-align: left;
+        text-shadow: 5px 5px 5px pink;
+        padding-left: 50px;
+        font-size: 30px;
+
+    }
+
+}
+
+
+/* Paul Rivere */
+
+.jumbo4 {
+    background-color: antiquewhite;
+    background-image: url(./img/Paul_riviere/paul3.jpg);
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+
+    & h1 {
+        text-align: left;
+        color: white;
+        margin-left: 30px;
+        padding-top: 150px;
+        padding-bottom: 20px;
+        font-size: 100px;
+        text-shadow: 5px 5px 5px black;
+
+    }
+
+    & a {
+        text-decoration: none;
+
+    }
+
+    & h1:hover {
+        color: pink;
+    }
+
+    & p {
+        color: rgb(0, 0, 0);
+        text-align: left;
+        font-family: verdana;
+        text-shadow: 5px 5px 5px black;
+        padding-left: 50px;
+        font-size: 20px;
+
+    }
+
+}
+
+
+/*UNION PACIFIC*/
+
+.jumbo5 {
+    background-color: antiquewhite;
+    background-image: url(./img/union/campa2.jpg);
+    width: 100%;
+    height: 600px;
+    background-size: cover;
+
+    & h1 {
+        text-align: right;
+        color: white;
+        margin-right: 30px;
+        padding-top: 150px;
+        padding-bottom: 20px;
+        font-size: 50px;
+        text-shadow: 5px 5px 5px black;
+
+    }
+
+    & a {
+        text-decoration: none;
+
+    }
+
+    & h1:hover {
+        color: pink;
+    }
+
+    & p {
+        color: rgb(0, 0, 0);
+        text-align: right;
+        font-family: verdana;
+        text-shadow: 5px 5px 5px black;
+        padding-right: 50px;
+        font-size: 30px;
+
+    }
+
+}
+
+/*contacto*/
+.formulario {
+    border-radius: 2px solid black;
+    width: 400px;
+    padding: 30px;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 4px;
+    color: white;
+    background-color: grey;
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.formulario h2 {
+    color: white;
+    font-size: 30px;
+}
+
+.controls {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.boton {
+    color: black;
+    background-color: rgb(252, 209, 233);
+    font-size: 20px;
+    width: 300px;
+    padding-top: 10px;
+}
+
+.boton:hover {
+    color: rgb(252, 209, 233);
+    transition: all 0.5seg;
+    background-color: black;
+}
+
+.boton {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+/*gracias*/
+
+.parrafo {
+    height: 300px;
+    text-align: center;
+    margin: 5%;
+
+    & p {
+        font-size: 60px;
+
+    }
+}
+
+.btn2 {
+    height: 50px;
+    background-color: black;
+    color: rgb(255, 255, 255);
+
+    & a {
+
+        text-decoration: none;
+        font-size: 20px;
+        font-weight: 800;
+        color: pink;
+
+    }
+}
+
+.btn2:hover {
+    background-color: pink;
+    color: rgb(0, 0, 0);
+
+    & a {
+        color: black;
+    }
+
+}
+
+
+
+/*FOOTER */
+
+.pie {
+    background-color: black;
+    color: white;
+    margin-top: 20px;
+    height: 170px;
+    width: 100%;
+
+}
+
+.pie2 {
+    background-color: black;
+    color: white;
+    margin-top: 300px;
+    height: 170px;
+    width: 100%;
+}
